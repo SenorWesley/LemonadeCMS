@@ -1,0 +1,18 @@
+.avatar{
+    width:64px;
+    height:110px;
+}
+
+.avatar .ghost{
+    opacity: 0.7;
+}
+
+.writing{
+    height:18px;
+    width:22px;
+    position: absolute;
+    top:10px;
+    right:0px;
+    display:none;
+    background-image:url('../img/avatar/writing.png');
+}

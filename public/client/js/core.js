@@ -1,0 +1,11 @@
+var Lemonade = {};
+Lemonade.avatars = {};
+Lemonade.Interface = {};
+Lemonade.Image = {};
+Lemonade.Avatar = {};
+Lemonade.Navigator = {};
+Lemonade.Catalog = {};
+Lemonade.Message = {};
+Lemonade.Chatting = {};
+Lemonade.Inventory = {};
+Lemonade.Socket = new WebSocket("ws://" + clientParameters["host"] + ":" + clientParameters["port"]);

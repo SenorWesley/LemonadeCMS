@@ -1,0 +1,93 @@
+#chatContainer {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    pointer-events: none;
+    height: 100vh;
+    width: 100vw;
+    z-index:50000000;
+}
+
+/* Default */
+
+#chatContainer .chatBubble{
+    height:24px;
+    position: absolute;
+    z-index: 99999999999999999999;
+    top:180px;
+    font-size:13px;
+    color:rgba(0,0,0,0.8);
+}
+
+#chatContainer .chatBubble .arrow{
+    position: absolute;
+    bottom:-6px;
+    background-image:url('../img/speechbubbles/default/arrow.png');
+    width:9px;
+    left:80%;
+    margin-left:-6px;
+    height:7px;
+}
+
+#chatContainer .chatBubble .left{
+    height:32px;
+    width:24px;
+    float:left;
+    background-image:url('../img/speechbubbles/default/left.png');
+    background-repeat:  no-repeat;
+}
+
+#chatContainer .chatBubble .left .avatar {
+    margin-top: -10px;
+}
+
+#chatContainer .chatBubble .mid{
+    height:24px;
+    float:left;
+    background-image:url('../img/speechbubbles/default/mid.png');
+    padding:0px 10px;
+    line-height: 30px;
+}
+
+#chatContainer .chatBubble .right{
+    width:4px;
+    height:24px;
+    float:left;
+    background-image:url('../img/speechbubbles/default/right.png');
+}
+
+
+
+#chatContainer .chatBubble.blue .left{
+    background-image:url('../img/speechbubbles/blue/left.png');
+}
+
+#chatContainer .chatBubble.blue .mid{
+    background-image:url('../img/speechbubbles/blue/mid.png');
+}
+
+#chatContainer .chatBubble.blue .right{
+    background-image:url('../img/speechbubbles/blue/right.png');
+}
+
+#chatContainer .chatBubble.blue .arrow{
+    background-image:url('../img/speechbubbles/blue/arrow.png');
+}
+
+
+
+#chatContainer .chatBubble.orange .left{
+    background-image:url('../img/speechbubbles/orange/left.png');
+}
+
+#chatContainer .chatBubble.orange .mid{
+    background-image:url('../img/speechbubbles/orange/mid.png');
+}
+
+#chatContainer .chatBubble.orange .right{
+    background-image:url('../img/speechbubbles/orange/right.png');
+}
+
+#chatContainer .chatBubble.orange .arrow{
+    background-image:url('../img/speechbubbles/orange/arrow.png');
+}

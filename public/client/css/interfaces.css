@@ -1,0 +1,31 @@
+/* regular box */
+.interface.box{
+    background-color:#E9E9E1;
+    z-index: 2000000000;
+    position: absolute;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border:1px solid #000;
+    border-bottom:3px solid #000;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5), inset 0px 0px 0px 2px rgba(256,256,256,0.75);
+}
+
+.interface.box .title{
+    background-color:#367897;
+    color:#fff;
+    font-size:14px;
+    line-height:30px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: inset 0px 2px 0px 0px rgba(256,256,256,0.1), inset 2px 0px 0px 0px rgba(256,256,256,0.1), inset -2px 0px 0px 0px rgba(256,256,256,0.1);
+    border-bottom:1px solid #000;
+    margin-top: -14px;
+}
+
